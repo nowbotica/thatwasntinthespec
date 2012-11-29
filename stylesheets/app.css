@@ -7,13 +7,20 @@
 :: Page Name 1
 :: Page Name 2
 */
-ul.doneList {list-style:none;}
+ul.doneList, ul.taskList {list-style:none;}
+
+body{background:url(../images/debut_light.png) repeat;}
 
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
 
+.task {background:#568d58;padding:5px; color:snow;}
 
+.doneList li { padding:5px 0 7px; margin:1px 0 2px; border-bottom:dotted 1px #636363;}
+
+.doneList .task {color:black; background:none; }
+h1 {font-family: 'Erica One', cursive;}
 
 /* -----------------------------------------
    Page Name 1
